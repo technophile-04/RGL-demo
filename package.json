@@ -30,7 +30,11 @@
   },
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
+    "@types/styled-components": "^5",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3"
+  },
+  "dependencies": {
+    "styled-components": "^5.3.9"
   }
 }
