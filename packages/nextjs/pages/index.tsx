@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <title>Scaffold-eth App</title>
         <meta name="description" content="Created with 🏗 scaffold-eth" />
       </Head>
-      <div style={{ padding: "16px" }}>
+      <div className="px-4">
         <ResponsiveGridLayout
           layouts={{ lg: layout }}
           breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
